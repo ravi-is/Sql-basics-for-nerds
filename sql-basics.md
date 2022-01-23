@@ -72,17 +72,17 @@ EX.
 SELECT * FROM BookHistory WHERE Book_type = "hacking";
 ```
 
-#### 1. MySQL numeric Data types
-    
-"MySQL has numeric data types for Integer, Fixed-point, Floating-Point and bit etc.
-    *Numeric can be singed or unsinged "
+#### 1. MySQL numeric Data types.
+
+-MySQL has numeric data types for Integer, Fixed-point, Floating-Point and bit etc.
+Numeric can be singed or unsinged.
     
 | 1. TINYINT | 6. FLOAT |
-    | --- | --- |
-    | 2. SMALLINT | 7. DOUBLE |
-    | 3. MEDIUMINT | 8. BIT |
-    | 4. INT |  |
-    | 5. BIGINT |  |
+| --- | --- |
+| 2. SMALLINT | 7. DOUBLE |
+| 3. MEDIUMINT | 8. BIT |
+| 4. INT |  |
+| 5. BIGINT |  |
     
 #### 2. String Data type.
 
