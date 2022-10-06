@@ -357,7 +357,7 @@ SELECT COUNT(*) FROM Worker WHERE Department = 'Admin';
     | --- |
     | 4 |
 
-##### # AGGREGATE FUNCTIONS : -
+# AGGREGATE FUNCTIONS : -
 
 SQL Aggregate functions is used to perform calculations on multiple row of a single column of a table it return single value.
 
@@ -369,7 +369,7 @@ SQL Aggregate functions is used to perform calculations on multiple row of a sin
 
 ---
 
-##### 1. **COUNT()** 
+1. **COUNT()** 
 
 → Count the number of rows in  database; It uses function COUNT(*) that return all rows
 
@@ -377,11 +377,7 @@ SQL Aggregate functions is used to perform calculations on multiple row of a sin
 SELECT COUNT(*) FROM Worker WHERE Department = 'Admin';
 ```
 
-| count(4) |
-| --- |
-| 4 |
----
-### 2. SUM()
+1. SUM()
 
 → SUM() Function is used to calculate the sum of all selected columns. it only work on numeric values.  Syntax: sum();
 
@@ -391,4 +387,57 @@ or
 SELECT 
 ```
 
-(will upload remaining one, sorry for inconvenience im running out of time nowadays)
+1. AVG()
+
+→ Used to calculate average value of the numeric type. AVG function return the average of all non-null values. Syntax: AVG();
+
+```sql
+SELECT Avg(salary) FROM Workder;
+```
+
+1. MAX(): 
+
+→ Max function used to find the maximum value of a certain column . This function determines the largest value of all selected values of column. Syntax: MAX();
+
+```sql
+SELECT MAX(SALARY) FROM Worker;
+```
+
+1. MIN();
+
+→ MIN used to find minimum value of a certain column. this function determines the smallest value of all selected of a column.
+
+```sql
+SELECT MIN(SALARY) FROM Worker 
+```
+
+---
+
+## SQL Command :
+
+→ SQL commands are the instructions used to communicate with the database, also use to perform specific task, functions & queries of data.
+
+→ **5 Types of SQL Commands**
+
+1. DDL → DATA DEFINATION LANGUAGE
+
+| CREATE | DROP | ALTER | TRUNCATE |
+| --- | --- | --- | --- |
+1. DML → DATA MANIPULATION LANGUAGE
+
+| INSERT | UPDATE | DELETE |
+| --- | --- | --- |
+1. DCL → DATA CONTROL LANGUAGE
+
+| GRANT | REVOKE |
+| --- | --- |
+1. TQL → TRANSACTION CONTROLL LANGUAGE
+
+| COMMIT | ROLLBACK | SAVEPOINT |
+| --- | --- | --- |
+1. DQL → DATA QUERY LANGUAGE
+
+| SELECT |
+| --- |
+
+- > Update Multiple values at a time
