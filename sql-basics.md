@@ -441,3 +441,4 @@ SELECT MIN(SALARY) FROM Worker
 | --- |
 
 - > Update Multiple values at a time
+- UPDATE agents SET COUNTRY = "INDIA" WHERE working_area = "Mumbai" OR working_area = "Chennai" OR working_area = "Bangalore";
